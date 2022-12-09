@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 100%;
+  background: black;
+  border-radius: 4px;
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-left: 120px;
+  padding: 20px;
+}
+.about {
+  background-color: red;
+}
+
+.about_h1 {
+  color: black;
+}
+.contact_h1 {
+  color: #e027fe;
+}
+
+/* .decor {
+  background: linear-gradient(
+    -45deg,
+    #fc8642,
+    #ff453f,
+    #ff470f,
+    #77043a,
+    #ffa260,
+    #cfa473
+  );
+  background-size: 500% 400%;
+  animation: gradient 3s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.card_left {
+  justify-content: center;
+  border: 1px solid wheat;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 21%;
+  box-shadow: 10px 10px 5px 1px lightgray;
+}
+.title_card_left {
+  text-align: center;
+  margin-top: -27%;
+}
+
+.profil_card {
+  border: 1px;
+  height: 40%;
+  width: 25%;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.list {
+  list-style: none;
+  margin-top: -10px;
+}
+.trace {
+  box-shadow: 10px lightseagreen;
+}
+
+.competence {
+  margin-top: 10%;
+  text-align: center;
+}
+.competence_hr {
+  width: 80px;
+  margin-left: 45%;
+}
+
+.card_rigth {
+  justify-content: center;
+  border: 1px solid wheat;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightgray;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 11px;
+}
+.last_card {
+  margin-top: 30px;
+}
+.cart {
+  margin-right: 50%;
+}
+
+.paragraph {
+  padding-left: 20px;
+}
+
+.jumbotron {
+  border: 2px solid lightblue;
+  box-shadow: 5px 5px 10px 5px lightgray;
+  border-radius: 10px;
+}
+.about_h {
+  color: #823af7;
+}
